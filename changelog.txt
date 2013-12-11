@@ -1,0 +1,9 @@
+1.0
+    - initial version
+
+1.1
+    - Fixed issues with backgrounds in IOS
+
+1.2
+    - Added fixed background images
+    - Feature Post image now displays in post page's footer

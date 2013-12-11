@@ -1,0 +1,14 @@
+<header class="post-header header-white header-overlay align-center align-top" {{#if @blog.cover}} style="background-image: url({{@blog.cover}})" {{/if}}>
+    <div class="header-inner">
+        <div class="container">
+            <a class="brand light" href="{{@blog.url}}" role="banner" >
+                {{#if @blog.logo}}
+                    <img src="{{@blog.logo}}" alt="Blog Logo" />
+                {{/if}}
+            </a>
+            <h2 class="blog-title light">
+                {{@blog.title}}
+            </h2>
+        </div>
+    </div>
+</header>
