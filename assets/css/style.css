@@ -91,6 +91,21 @@ h3 {
   font-weight: 700;
   margin-bottom: 12px;
 }
+.nav-button {
+  text-decoration:none !important;
+  align: right;
+  color: white;
+  margin-left: -85%;
+  font-size: 36px;
+}
+.nav-button:hover {
+  color: #18bc9c;
+}
+.nav-button a {
+    text-decoration:none;
+    align: right;
+    color: white;
+}
 h3 small {
   font-size: 16px;
 }
@@ -107,6 +122,10 @@ h4 {
 h2.post-title.text-center.super.lighter a{
   text-decoration: none;
   font-size: 1.25em;
+  color: #4C5255;
+}
+h2.post-title.text-center.super.lighter a:hover {
+  color:#18bc9c;
 }
 .copy-text {
   color: white;
@@ -782,6 +801,9 @@ body button {
 }
 h1
 {
+  font-family: 'Raleway', sans-serif;
+}
+.blog-title.light {
   font-family: 'Raleway', sans-serif;
 }
 h2,
