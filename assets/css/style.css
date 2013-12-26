@@ -66,6 +66,9 @@ font-size: 18px;
 .small-screen-center {
   font-size: 24px;
 }
+i:hover {
+  color: #18bc9c;
+}
 h2 {
   font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
   letter-spacing: -0.02em;
@@ -128,10 +131,17 @@ h2.post-title.text-center.super.lighter a:hover {
   color:#18bc9c;
 }
 .copy-text {
-  color: white;
+  color: #ececec;
+  font-size: 16px;
   display: inline-block;
   padding: 0;
   margin: 0;
+}
+.copy-text a{
+  font-size: 16px;
+}
+.copy-text a:hover {
+  color: #18bc9c !important;
 }
 .social-icons li a {
   text-decoration: none;
@@ -595,6 +605,7 @@ html {
   text-transform: none;
   padding-top: 1em;
   margin-top: 1em;
+  text-shadow: 1px 0 1px rgba(0,0,0,.8),0 0 1em rgba(0,0,0,.5) !important;
   -webkit-transition: all 0.9s ease-in-out;
   -moz-transition: all 0.9s ease-in-out;
   transition: all 0.9s ease-in-out;
