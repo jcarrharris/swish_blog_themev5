@@ -1,0 +1,140 @@
+/* Author */
+
+.author {
+font-family: "Open Sans", sans-serif;
+font-size: 0.727rem;
+margin: 4.236rem 0 0;
+position: relative;
+}
+
+.author-bio {
+font-style: italic;
+margin: 0;
+}
+
+.author-image {
+border-radius: 100%;
+margin: 0;
+position: absolute;
+width: 4.236rem;
+}
+
+.author-image ~ .author-bio,
+.author-image ~ .author-name {
+margin-left: 1.618rem;
+padding-left: 4.236rem;
+}
+
+.author-name {
+font-size: inherit;
+margin-top: 0;
+}
+
+.author-website {
+color: inherit;
+}
+
+
+/* Comments */
+
+.comments {
+margin: 4.236rem auto 0;
+}
+
+.comments form {
+text-align: center;
+}
+
+
+/* Post */
+
+.post {
+position: relative;
+}
+
+.post-date {
+font-family: "Open Sans";
+font-size: 0.727rem;
+right: 0;
+padding: 1.618rem 2.618rem;
+position: absolute;
+top: 0;
+}
+
+.post-excerpt {
+background-color: #FFFFFF;
+height: 29.03rem;
+}
+
+.post-excerpt a {
+color: inherit;
+}
+
+.post-excerpt.first {
+padding-top: 4.23rem;
+}
+
+.post-excerpt.last {
+padding-bottom: 6.854rem;
+}
+
+.post-excerpt .overlay {
+background-color: #FFFFFF;
+bottom: 0;
+height: 150px;
+left: 0;
+position: absolute;
+width: 100%;
+}
+
+.post-excerpt .overlay:before {
+background: url("/assets/img/gradient.png");
+background: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+background:    -moz-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+background:         linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+content: "";
+height: 200px;
+margin-top: 1px; /* Hide sub pixel rounding */
+position: absolute;
+top: -200px;
+width: 100%;
+}
+
+.post-full {
+padding: 6.854rem 0;
+}
+
+.post-excerpt .wrapper {
+color: inherit;
+display: block;
+height: 100%;
+overflow: hidden;
+position: relative;
+text-decoration: none;
+}
+
+.js .post-excerpt .wrapper {
+cursor: pointer;
+}
+
+.post-title {
+line-height: 1.2;
+}
+
+.post-title a {
+color: inherit;
+}
+
+
+/* Featured image */
+
+.post .featured-image {
+background-size: cover;
+height: 17.942rem;
+margin: -6.854rem 0 4.236rem;
+}
+
+.post .featured-image img,
+.post .featured-image p {
+margin: 0;
+}

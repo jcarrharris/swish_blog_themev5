@@ -1,0 +1,29 @@
+<template id="comments">
+    <div class="comments">
+        <form class="comments-toggle">
+            <input type="submit" value="Comments">
+        </form>
+    </div>
+</template>
+
+<template id="search">
+    <div class="site-search">
+        <form>
+            <input placeholder="Search" type="search">
+
+            <input type="reset">
+
+            <span class="search-reset fa fa-times-circle"></span>
+        </form>
+
+        <div class="site-search-results"></div>
+    </div>
+</template>
+
+<template id="search-result">
+	<a class="search-result" href="{{link}}">
+		<h2 class="search-result-title">{{{title}}}</h2>
+
+		<time class="search-result-date">{{date}}</time>
+	</a>
+</template>
