@@ -1,11 +1,10 @@
 <header class="site-header {{#if @blog.cover}}site-cover{{/if}}" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
     {{#if @blog.logo}}
     <img alt="{{@blog.title}}" class="site-logo" src="{{@blog.logo}}">
-    {{else}}
+    {{/if}}
     <div class="wrapper">
         <h1 class="site-title">{{@blog.title}}</h1>
 
-        {{#if @blog.description}}<h2 class="site-description">{{@blog.description}}</h2>{{/if}}
+        <h2 class="site-description">{{@blog.description}}</h2>
     </div>
-    {{/if}}
 </header>

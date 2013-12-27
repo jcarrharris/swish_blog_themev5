@@ -124,7 +124,12 @@ line-height: 1.2;
 .post-title a {
 color: inherit;
 }
-
+.post-title:hover {
+  color: #18bc9c;
+  -webkit-transition: all 0.9s ease-in-out;
+  -moz-transition: all 0.9s ease-in-out;
+  transition: all 0.9s ease-in-out;
+}
 
 /* Featured image */
 
